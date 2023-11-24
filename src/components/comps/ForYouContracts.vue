@@ -7,7 +7,7 @@
   </div>
 </template>
 <script>
-import ForYouCard from "./partials/ForYouCard.vue";
+import ForYouCard from "../partials/ForYouCard.vue";
 export default {
   name: "ForYouContracts",
   components: {

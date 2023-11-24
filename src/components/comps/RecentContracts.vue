@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import RecentCard from "./partials/RecentCard.vue";
+import RecentCard from "../partials/RecentCard.vue";
 
 export default {
   name: "RecentContracts",

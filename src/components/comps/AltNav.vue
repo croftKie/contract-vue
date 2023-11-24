@@ -1,11 +1,7 @@
 <template>
   <div className="nav">
-    <h3>Contractor - Find your next job</h3>
-    <div class="links">
-      <a href="">Dashboard</a>
-      <a href="">About</a>
-      <a href="">Pricing</a>
-    </div>
+    <button>Go Back</button>
+    <h3>Contractor - Dashboard</h3>
     <div className="icons">
       <button>User</button>
       <button>Fave</button>

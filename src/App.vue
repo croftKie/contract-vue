@@ -1,24 +1,10 @@
 <template>
-  <NavBar />
-  <SearchBar user="Kieran" />
-  <RecentContracts />
-  <ForYouContracts />
+  <RouterView />
 </template>
 
 <script>
-import NavBar from "./components/NavBar.vue";
-import SearchBar from "./components/SearchBar.vue";
-import RecentContracts from "./components/RecentContracts.vue";
-import ForYouContracts from "./components/ForYouContracts.vue";
-
 export default {
   name: "App",
-  components: {
-    NavBar,
-    SearchBar,
-    RecentContracts,
-    ForYouContracts,
-  },
 };
 </script>
 
