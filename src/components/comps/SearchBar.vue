@@ -6,11 +6,7 @@
     </div>
     <div className="searchBar">
       <input type="text" placeholder="What are you looking for?" />
-      <button
-        className="px-5 py-2 font-medium border border-b-4 border-r-4 border-black rounded-lg shadow-lg hover:shadow-sm hover:border-b-2 hover:border-r-2"
-      >
-        Search
-      </button>
+      <button className="">Search</button>
     </div>
     <div className="options">
       <button className="active">Remote</button>
@@ -28,3 +24,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.searchHome {
+  display: flex;
+}
+</style>
