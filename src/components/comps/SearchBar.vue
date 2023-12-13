@@ -6,7 +6,7 @@
     </div>
     <div className="searchBar">
       <input type="text" placeholder="What are you looking for?" />
-      <button className="">Search</button>
+      <button>Search</button>
     </div>
     <div className="options">
       <button className="active">Remote</button>
